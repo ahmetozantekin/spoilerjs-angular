@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+body,html{
+    padding: 0;
+    margin: 0;
+    background: #b32929;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+} 
+
+h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.7rem; 
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-family:  monospace;
+}
+img{
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    width: 45%;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+code{
+    width:40%;
+    padding: 30px 20px 20px 20px;
+    background: #efefef;
+    margin: 20px auto;
+    position: relative;
+    display: block;
+    box-shadow: 0 0 0 5px;
+}
+#_1:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'usage';
+    background: #000;
+    color: #ffffff;
+    padding: 2px 15px;
+    font-weight: 900;
+    font-family: monospace;
+}
+#_2:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'result';
+    background: #000;
+    color: #ffffff;
+    padding: 2px 15px;
+    font-weight: 900;
+    font-family: monospace;
+}
+b{
+    color: #b32929;
+}
+
+#dwn{
+   position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    transition: .2s all;
+    background: rgba(255, 255, 255, 0.38);
+    box-shadow: 0 2px 6px;
+    
+}
+#dwn:hover{
+    box-shadow: 0 0 4px;
+}
