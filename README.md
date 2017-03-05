@@ -1,7 +1,7 @@
 # angular-spoiler-js
 
 Spoiler alert tag for AngularJS 
-[Visit the page](https://ahmetozantekin.github.io/angular-spoiler)
+[Visit the page](https://ahmetozantekin.github.io/spoilerjs-angular)
 #### Usage.
 ```html
    
