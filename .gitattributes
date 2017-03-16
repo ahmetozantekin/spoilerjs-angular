@@ -1,1 +1,2 @@
-*.rb linguist-language=Javascript
+static/* linguist-vendored
+*.html linguist-language=Javascript
